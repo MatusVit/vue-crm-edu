@@ -1,5 +1,4 @@
 const dateFilter = (value, format = 'date') => {
-  console.log(value);
   const options = {};
 
   if (format.includes('date')) {
