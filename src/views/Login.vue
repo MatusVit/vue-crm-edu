@@ -91,7 +91,7 @@ export default {
         await this.$store.dispatch('login', formData);
         this.$router.push('/');
       } catch (error) {
-        console.log(error);
+        console.log('Ошибка авторизации >>> ', error);
       }
     },
   },
